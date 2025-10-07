@@ -260,7 +260,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "2,9"
 			(at 111.76 99.0599 0)
 			(effects
 				(font
