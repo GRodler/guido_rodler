@@ -873,6 +873,12 @@
 		(uuid f43ef63e-ede7-4b1f-a2f5-8f2fa415a43a)
 	)
 	(junction
+		(at 72.39 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "138a3aeb-1ef5-4c47-b25d-ae99e31806b5")
+	)
+	(junction
 		(at 154.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -975,6 +981,16 @@
 			(type default)
 		)
 		(uuid "208776dd-9b58-48aa-a2f1-1d52a86d4a75")
+	)
+	(wire
+		(pts
+			(xy 72.39 142.24) (xy 128.27 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b69c42f-5ed2-4825-969a-9c6f447db750")
 	)
 	(wire
 		(pts
@@ -1198,6 +1214,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 142.24) (xy 72.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df09ef14-b941-4a78-a2ea-1c306dcd5b96")
+	)
+	(wire
+		(pts
 			(xy 55.88 45.72) (xy 55.88 63.5)
 		)
 		(stroke
@@ -1205,6 +1231,16 @@
 			(type default)
 		)
 		(uuid "e9871952-124d-4453-bacf-fc7dedd74983")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 72.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9bf43e-a1ce-45b9-9e1e-d0b4fed9805d")
 	)
 	(hierarchical_label "MONITOR_SUPPLY_IN"
 		(shape input)
@@ -1478,7 +1514,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee40e60b-0c86-4bd2-abf4-3d5a585db560")
 		(property "Reference" "U1"
 			(at 173.99 36.7598 0)
@@ -1505,7 +1540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS780-Datasheet.ashx?la=en"
+		(property "Datasheet" "https://www.allegromicro.com/-/media/files/datasheets/acs781-datasheet.pdf"
 			(at 154.94 43.18 0)
 			(effects
 				(font
