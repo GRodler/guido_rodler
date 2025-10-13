@@ -225,7 +225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2,9"
+		(property "Value" "3,5"
 			(at 111.76 97.7899 0)
 			(effects
 				(font
