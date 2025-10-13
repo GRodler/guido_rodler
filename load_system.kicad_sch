@@ -146,7 +146,7 @@
 	)
 	(wire
 		(pts
-			(xy 12.7 29.21) (xy 109.22 29.21)
+			(xy 38.1 30.48) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -156,7 +156,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 147.32) (xy 12.7 147.32)
+			(xy 134.62 148.59) (xy 38.1 148.59)
 		)
 		(stroke
 			(width 0)
@@ -166,7 +166,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 29.21) (xy 109.22 93.98)
+			(xy 134.62 30.48) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -176,7 +176,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 109.22 147.32)
+			(xy 134.62 100.33) (xy 134.62 148.59)
 		)
 		(stroke
 			(width 0)
@@ -186,29 +186,29 @@
 	)
 	(hierarchical_label "LOAD_SUPPLY_OUT"
 		(shape output)
-		(at 12.7 147.32 0)
+		(at 38.1 148.59 180)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ce190dbb-88a2-434c-a280-ad109319046c")
 	)
 	(hierarchical_label "LOAD_SUPPLY_IN"
 		(shape input)
-		(at 12.7 29.21 0)
+		(at 38.1 30.48 180)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d16e11a9-1601-4ead-bb2e-db525ffcd95b")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 109.22 96.52 0)
+		(at 134.62 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -217,7 +217,7 @@
 		(fields_autoplaced yes)
 		(uuid "f15d9194-d5b0-4288-b1da-3a75c76b36a2")
 		(property "Reference" "R1"
-			(at 111.76 95.2499 0)
+			(at 137.16 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,7 +226,7 @@
 			)
 		)
 		(property "Value" "3,5"
-			(at 111.76 97.7899 0)
+			(at 137.16 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 96.52 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -244,7 +244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 96.52 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -253,7 +253,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 109.22 96.52 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
